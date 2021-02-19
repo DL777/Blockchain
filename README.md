@@ -15,10 +15,10 @@ In what follows, I present the instructions for setting up the PoA blockchain.
 
 # Instructions
 
-## Create Blockchain Nodes
+## Generate Blockchain Nodes
 Because the accounts must be approved, you need to generate two new nodes with new account addresses that will serve as the pre-approved sealer addresses.
 
-For this purpose we will use **Geth** and create two nodes, **Node 11** and **Node 22** Using the following commands:
+For this purpose we will use **Geth** and create two nodes, **Node 11** and **Node 22** by running the following commands in Git Bash:
 
 **Create Node 11:**
 
@@ -28,7 +28,12 @@ For this purpose we will use **Geth** and create two nodes, **Node 11** and **No
 
 `./geth --datadir node2 account new`
 
+You need to run these commands from the folder in which you have your Geth installed. Once the two nodes have been generated, there will be two folders created – node11 and node22 – each containing a folder with a keystore for that node.
 
+## Generate your Genesis Block
+Next we will use **puppeth** to generate your genesis block:
 
+Run `puppeth`, name your network, and select the option to `configure a new genesis block`. I named my PoA network `dlchain`.
 
+Choose the `Clique` (Proof of Authority) consensus algorithm.
 
