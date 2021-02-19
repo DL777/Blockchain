@@ -56,3 +56,18 @@ Open side by side two Git Bash windows, one for Node 11 and the other for Node 2
 `./geth --datadir node11 init dlchain.json`
 
 `./geth --datadir node22 init dlchain.json`
+
+
+## Begin Mining Blocks
+
+Run the nodes in separate terminal windows with the commands:
+
+`./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock`
+
+`./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock`
+
+**NOTE**: Type your password and hit enter - even if you can't see it visually!
+
+The PoA blockchain should be now up and running.
+
+## Add the New Blockchain to MyCrypto for Testing
