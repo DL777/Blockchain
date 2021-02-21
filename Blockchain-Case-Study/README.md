@@ -1,4 +1,4 @@
-![Axelar](Axelar.png)
+![Axelar](axelar.png)
 # Case Study: Axelar
 ## What Is It
 
