@@ -35,13 +35,13 @@ Axelar network offers the following advantages:
 
 Finally, Axelar network is a platform for developers and a global community. Its governance model is open to anyone. Developers can propose new integration points, routing, and application-level protocols, and the users can decide whether to adopt them by voting on the proposals and, if approved, validators will adopt the changes.
 
-# Existing Interoperability Solutions
+## Existing Interoperability Solutions
 
 Previous attempts to solve interoperability across blockchains fall in one of four categories: centralized exchanges, interoperable ecosystems, wrapped assets, and token bridges.
 
 The existing solutions for interoperability require heavy engineering work from both platform developers and application builders that must understand different communication protocols to communicate across every pair of ecosystems. And so, interoperability is virtually non-existing in today’s blockchain space. At the end of the day, platform developers want to focus on building platforms and optimize them for their use-cases and be able to plug in to other blockchains easily. And application developers want to build dapps on the best platforms for their needs while still leveraging users, liquidity and communicate with other dapps on other chains.
 
-# Axelar Network
+## Axelar Network
 Axelar network consists of a decentralized network which bridges blockchain ecosystems that speak different languages and a protocol suite with APIs on top, making it easy for applications to perform cross-chain requests. The network connects existing stand-alone blockchains such as Bitcoin, Stellar, Terra, Algorand, and interoperability hubs such as solutions like Cosmos, Avalanche, Ethereum, and Polkadot.
 
 A core component of the network are the underlying decentralized protocols. Validators collectively maintain the Axelar network and run the nodes that secure the Axelar blockchain. They are elected through a delegation process by the users. Validators receive voting power pro-rata according to the stake delegated to them. The validators reach consensus on the state of multiple blockchains that the platform is connected to. The blockchain is responsible for maintaining and running the cross-chain routing and transfer protocols. Governance rules allow network participants to enact protocol decisions such as which blockchains to bridge and which assets to support.
@@ -50,13 +50,13 @@ Axelar blockchain follows a **Delegated Proof-of-Stake (DPoS)** model similar to
 
 Subsequently, the Axelar base layer is aware of the state of external blockchains at any point in time, creating the “incoming bridges” from other blockchains. The validators collectively maintain threshold signature accounts on other blockchains (e.g., 80% of validators must approve and co-sign any transaction out of it), which allows them to lock and unlock assets and state across chains and to post state on other blockchains, the “outgoing bridges.” Altogether, one can view the Axelar network as a decentralized crosschain read/write oracle. 
 
-# Seed Funding
+## Seed Funding
 In November 2020, Axelar raised $3.75 million in seed funding. The funding round included participation from investors including Binance X, the investment arm and accelerator of cryptocurrency exchange Binance, as well as San Francisco-based venture capital firm DCVC (Data Collective).
 
 Other participants included crypto investment firm Lemniscap, crypto operator fund Divergence Ventures, serial entrepreneur Waikit Lau and AngelList founder Naval Ravikant.
 
 
-# Resources
+## Resources
 
 1. Axelar Whitepaper. (2021, January). Axelar Network: Connecting Applications with Blockchain Ecosystems https://static1.squarespace.com/static/5f7679246f2afb311bbb67dd/t/602d3503ad35b40d1bdc209c/1613575428020/axelar_whitepaper_v1.pdf
 2. Gorbunov, S. (2020, November 19). Why Blockchain Interoperability is just a Buzzword. Medium. https://medium.com/axelar/why-blockchain-interoperability-is-just-a-buzzword-4e3f17698c1
