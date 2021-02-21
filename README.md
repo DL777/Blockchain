@@ -28,7 +28,7 @@ For this purpose we will use **Geth** and create two nodes, **Node 11** and **No
 
 `./geth --datadir node2 account new`
 
-You need to run these commands from the folder in which you have your Geth installed. Once the two nodes have been generated, there will be two folders created – node11 and node22 – each containing a folder with a keystore for that node.
+You need to run these commands from the folder in which you have your Geth installed. Once the two nodes have been generated, there will be two folders created – `node11` and `node22` – each containing a folder with a keystore for that node.
 
 ## Generate your Genesis Block
 Next we will use **puppeth** to generate your genesis block:
@@ -73,7 +73,7 @@ The PoA blockchain should be now up and running.
 
 ## Add the New Blockchain to MyCrypto for Testing
 
-- Open the MyCrypto app, then click Change Network at the bottom left
+- Open the `MyCrypto` app, then click Change Network at the bottom left
 - Click "Add Custom Node", then add the custom network information that you set in the genesis.
 - Make sure that you scroll down to choose Custom in the "Network" column to reveal more options like Chain ID:
 ![SetUpYourCustomNode](POA-Development-Chain/Screenshots/CustomNode.png)
