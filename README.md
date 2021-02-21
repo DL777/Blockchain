@@ -3,15 +3,15 @@
  ## 
  In this project, I built my custom PoA blockchain using the following tools:
 
-•  Puppeth - to generate the genesis block
+•  `Puppeth` - to generate the genesis block
 
-•  Geth, a command-line tool, to create keys, initialize nodes, and connect the nodes together
+•  `Geth` - a command-line tool to create keys, initialize nodes, and connect the nodes together
 
-•  The Clique Proof of Authority algorithm.
+•  The `Clique` Proof of Authority algorithm.
 
-The Proof of Authority (PoA) algorithm is typically used for private blockchain networks as it requires pre-approval of, or voting in of, the account addresses that can approve transactions (seal blocks).
+The `Proof of Authority (PoA)` algorithm is typically used for private blockchain networks as it requires pre-approval of, or voting in of, the account addresses that can approve transactions (seal blocks).
 
-In what follows, I present the instructions for setting up the PoA blockchain.
+In what follows, I present the instructions for setting up the `PoA` blockchain.
 
 # Instructions
 
